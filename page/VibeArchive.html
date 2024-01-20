@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Archive</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Melon_logo.png" id="favicon" />
+    <link rel="stylesheet" href="VibeArchive2.css" type="text/css">
+    <script src="VibeArchive2.js"></script>
+</head>
+
+
+
+
+
+<nav class="navbar" style="background-color: black;">
+    <div class="container">
+      <a class="icon" href="VibeArchive.html">
+        <img src="log5050.png" alt="Vibe Archive" width="60" height="60">
+      </a>
+      <fieldset id="search">
+        <div class="search-wrapper">
+            <div class="input-holder">
+                <input type="text" class="search-input" placeholder="Click to search" onclick="location.href='search.html';" />
+
+            </div>
+            <span class="close" onclick="searchToggle(this, event);"></span>
+        </div>
+    </fieldset>
+    <h4 class = "type" id ="login">Sign in</h4>
+    
+    </div>
+  </nav>
+
+<body>
+<div class = "right-100">
+    <div id = "foryou">
+    <h5 class = "type">For you</h5>
+        <div>
+        <ul class = "songs1">
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/mcdO9UP0hp8?si=YG5VB3lKqrGnlRPp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Je te laisserai des mots - Patrick Watson</li>
+                    <button onclick="addToPlaylist('Je te laisserai des mots - Patrick Watson')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Je te laisserai des mots - Patrick Watson')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Je te laisserai des mots - Patrick Watson')" class = "addbutton">Like</button>       
+            </div>    
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/5g4KsIizYhQ?si=rcWhGJjwD0tWF8A6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>For Lovers Who Hesitate - Jannabi</li>
+                    <button onclick="addToPlaylist('For Lovers Who Hesitate - Jannabi')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('For Lovers Who Hesitate - Jannabi')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('For Lovers Who Hesitate - Jannabi')" class = "addbutton">Like</button>
+            </div>   
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/K0pohSE1ous?si=hDQsSF3M5jBRjBrd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+                    <li>November Rain - Jannabi</li>
+                    <button onclick="addToPlaylist('November Rain - Jannabi')"class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('November Rain - Jannabi')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('November Rain - Jannabi')" class = "addbutton">Like</button>
+            </div>        
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/vyvIk17ekIs?si=LgAx4jxfM3x3iJOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Can You Remember the Rain -  Kaffetorsk</li>
+                    <button onclick="addToPlaylist('Can You Remember the Rain -  Kaffetorsk')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Can You Remember the Rain -  Kaffetorsk')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Can You Remember the Rain -  Kaffetorsk')" class = "addbutton">Like</button>
+            </div>   
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/RiZVjfjgNyY?si=Vi7vJSEQ5eCl5O2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>I'm God - Clams Casino</li>
+                    <button onclick="addToPlaylist('I\'m God - Clams Casino')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('I\'m God - Clams Casino')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('I\'m God - Clams Casino')" class = "addbutton">Like</button>
+            </div>    
+        </div>
+        </ul>
+    </div>
+
+    <div>
+    <h6 class = "type">Chirstmas</h6>
+        <ul class = "songs1">
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/1RWXHI4mm6E?si=XXjhKi0fVMVpv9Pz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Last Chirstmas - Wham!</li>
+                    <button onclick="addToPlaylist('Last Chirstmas - Wham!')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Last Chirstmas - Wham!')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Last Chirstmas - Wham!')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/h0b4nw7NDhA?si=lf-OHfAiSPGBrE3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>The First Snow - EXO</li>
+                    <button onclick="addToPlaylist('The First Snow - EXO')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('The First Snow - EXO')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('The First Snow - EXO')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/ZYUAY6EN05Q?si=jsC3dj-lzx8jTz-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Winter Wonder - The Florin Street Band</li>
+                    <button onclick="addToPlaylist('Winter Wonder - The Florin Street Band')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Winter Wonder - The Florin Street Band')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Winter Wonder - The Florin Street Band')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/D4ZB56fL3dI?si=8tU6LM_FBAIIBOOf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+                    <li>Feliz Navidad - José Feliciano</li>
+                    <button onclick="addToPlaylist('Feliz Navidad - José Feliciano')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Feliz Navidad - José Feliciano')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Feliz Navidad - José Feliciano')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/A8eWaR8ONvw?si=e8rOy30jICe6z-cu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>The Christmas Song - Nat King Cole</li>
+                    <button onclick="addToPlaylist('The Christmas Song - Nat King Cole')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('The Christmas Song - Nat King Cole')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('The Christmas Song - Nat King Cole')" class = "addbutton">Like</button>
+            </div>
+        </ul>
+
+    </div>
+    <div class = "songs", id ="3am">
+    <h8 class = "type">3am</h8>
+        <ul class = "songs1">
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/8GW6sLrK40k?si=kNUDcC4ehAPjRHjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Resonance - HOME</li>
+                    <button onclick="addToPlaylist('Resonance - HOME')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Resonance - HOME')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Resonance - HOME')" class = "addbutton">Like</button>
+                </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/1kZCVdU1N6o?si=4LFCFAN5qZ1WDhve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Let go - Ark Patrol</li>
+                    <button onclick="addToPlaylist('Let go - Ark Patrol')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Let go - Ark Patrol')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Let go - Ark Patrol')" class = "addbutton">Like</button>
+                </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/LlN8MPS7KQs?si=6qCF075xqSFCJGSh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>snowfall - øneheart x reidenshi</li>
+                    <button onclick="addToPlaylist('snowfall - øneheart x reidenshi')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('snowfall - øneheart x reidenshi')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('snowfall - øneheart x reidenshi')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/RBtlPT23PTM?si=Awr0yy1uZSPr7Zeq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Space Song- Beach House </li>
+                    <button onclick="addToPlaylist('Space Song- Beach House')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Space Song- Beach House')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Space Song- Beach House')" class = "addbutton">Like</button>
+            </div>
+            <div class = "position1">
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/C8df2pbOX6g?si=Pd5I69mfWKrhzsup" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <li>Moog city 2 - C418</li>
+                    <button onclick="addToPlaylist('Moog city 2 - C418')" class = "addbutton">Add</button>
+                    <button onclick="deleteFromPlaylist('Moog city 2 - C418')" class = "addbutton">Delete</button>
+                    <button onclick="likeSong('Moog city 2 - C418')" class = "addbutton">Like</button>
+
+            </div>
+        </ul>
+    </div>
+</div>
+    <div class ="interface">
+        <div class = "interfacelist">
+            <ul class ="interfacelist2">
+                <li id = "home">Home</li>
+                <li id = "Archive" >Your Archive</li>
+                <ul id="archiveList"></ul>
+            </ul>
+            
+        </div> 
+    </div>
+
+</body>
+
+<footer>
+    <div></div>
+
+</footer>
+</html>

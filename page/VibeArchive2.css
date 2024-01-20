@@ -1,0 +1,210 @@
+body{background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.type {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*nav */ 
+div.container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    
+
+}
+
+a.icon {
+    position: relative;
+    right:200px;
+}
+
+
+fieldset#search input {
+    border-radius: 99px;
+    padding: 5px;
+    width: 300px;
+    height: 48px;
+    border: 2px solid white; 
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 270px;
+}
+
+.search-input:focus {
+    border: 2px solid white; 
+    outline: none; 
+}
+
+fieldset#search button {
+    border: none;
+    background: transparents;
+    padding: 5px 10px;
+}
+
+
+h4#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 999px;
+    align-items: center;
+    position: relative;
+    right: -130px; 
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -100px;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    margin:  auto;
+    width: 1080px;
+}
+
+/* header */
+
+
+/* body */
+
+
+div.interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 900px;
+    border: 1px solid #383332;
+    background-color #383332;
+    padding: 0px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    right: -180px; 
+    position: absolute;
+    left: 0px;
+    top: 110px;
+}
+
+
+ul.songs1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+/* body */
+div.position1{
+    position: relative;
+    right :-100px;
+    margin-right: 50px;
+    margin-bottom: 55px;
+}
+
+div.right-100{
+    position: relative;
+    right : -300px; 
+ }
+
+div.interface{
+    background-color: #211F1F;
+    font-size: 27px;
+    list-style: none;
+}
+
+
+ul.interfacelist2{
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    font-size: large;
+    margin-bottom: 20px;   
+
+}
+
+
+ul.interfacelist2 li {
+    margin-bottom: 50px; 
+    cursor: pointer;
+}
+
+.addbutton {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+}
+
+.addbutton:hover {
+    background-color: lightgreen; 
+    text-decoration: underline;
+}
+
+ul#archiveList {
+    list-style-type: none;
+    position: absolute;
+    top: 100px;
+    left: -100px;
+
+}
+
+#home {
+    position: absolute;
+    top: 0px; 
+    left: -100px; 
+}
+    
+
+#Archive {
+    position: absolute;
+    top: 70px; 
+    left: -100px; 
+    cursor: default; 
+}
+
+
+/* footer */
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

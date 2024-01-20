@@ -1,0 +1,142 @@
+/* Google Fonts Import */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.icon1 {
+    position: absolute;
+    top: 21px; 
+    left: 17px; 
+  }
+  
+.search-input {
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    border-radius: 99px;
+    padding: 5px;
+    width: 300px;
+    height: 48px;
+    border: 0;
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 270px;
+
+}
+
+/* Converted Variables */
+/* SCSS 변수를 직접 값으로 교체합니다. */
+.color-background { color: black; }
+.color-item-background { color: black; }
+.color-type { color: #fefefe; }
+.thumb-side { width: 240px; }
+.item-height { height: 360px; }
+
+/* Converted Mixins */
+/* SCSS 믹스인을 직접 적용합니다. */
+.center-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Converted Nested Rules */
+/* 중첩된 규칙을 분리합니다. */
+.artist {
+  width: 240px; /* $thumb-side 변수 값으로 대체 */
+  height: 360px; /* $item-height 변수 값으로 대체 */
+  margin-right: 20px;
+  background: #282828; /* $color-item-background 변수 값으로 대체 */
+  position: relative;
+  top: 380px;
+}
+.artist:last-child {
+  margin: 0;
+}
+.artist__thumbnail {
+  position: relative;
+  width: 240px; /* $thumb-side 변수 값으로 대체 */
+  height: 240px; /* $thumb-side 변수 값으로 대체 */
+  overflow: hidden;
+}
+/* 이하 코드는 위와 유사한 방식으로 변환됩니다. */
+
+/* 기타 규칙들 */
+.capital {
+  color: #c4c3ca; /* darken 함수를 사용하지 않고 직접 색상 값 지정 */
+  text-transform: uppercase;
+}
+
+/* 전역 및 HTML, Body 스타일 */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; /* $color-background 변수 값으로 대체 */
+  color: #fefefe; /* $color-type 변수 값으로 대체 */
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: absolute; /* 또는 relative, fixed에 따라 다를 수 있음 */
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .profile-details {
+    font-size: 16px;
+  }
+
+    .navbar{
+    width: 1080px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

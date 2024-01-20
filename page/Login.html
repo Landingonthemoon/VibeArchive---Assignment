@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+	<link rel="stylesheet" href="../css/VibeArchive.css" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="../image/Melon_logo.png" id="favicon" />
+	<link rel="stylesheet" href="../css/signup2.css" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="../js/jquery-3.7.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/login.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>	
+	
+</head>
+<body>
+<div class = "Login">
+	<a href="VibeArchive.html" class="logo" target="_blank">
+		<img src="../image/log5050.png" alt="Vibe Archive" width="60" height="60">
+	</a>
+
+	<div class="section" style="background: #f5f5f5;">
+		<div class="container" style="background: #f5f5f5;">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+						<h6 class="mb-0 pb-3"><span>Sign In </span><span>Register</span></h6>
+			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+			          	<label for="reg-log"></label>
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h3 class="mb-4 pb-3">SIGN IN</h4>
+											<div class="form-group">
+												<input type="email" name="login" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="login" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<input href="#" class="btn mt-4" type = "button" onclick="check()" value = "SIGN IN"> 
+										</div>
+			      					</div>
+			      				</div>
+								<div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">REGISTER</h4>
+											<div class="form-group">
+												<input type="text" name="signup" class="form-style" placeholder="Your Full Name" id="signup_name" autocomplete="off">
+												<i class="input-icon uil uil-user"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="email" name="signup" class="form-style" placeholder="Your Email" id="signup_id" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="signup" class="form-style" placeholder="Your Password" id="signup_pw" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<form id="myForm">
+												<input href="#" class="btn mt-4" type = "button" onclick="signup()" value = "REGISTER"> 
+											</form>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+</div>
+</body>
+</html>
